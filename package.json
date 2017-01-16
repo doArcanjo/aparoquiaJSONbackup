@@ -1,0 +1,27 @@
+{
+  "name": "aparoquiaJSONbackup",
+  "version": "1.0.0",
+  "description": "local JSON backup from aparoquia",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "console-stamp": "^0.2.2",
+    "cron-parser": "^2.1.1",
+    "dotenv": "^2.0.0",
+    "fs-extra": "^1.0.0",
+    "json-2-csv": "^2.1.0",
+    "json2csv": "^3.7.2",
+    "lodash": "^4.16.6",
+    "moment": "^2.14.1",
+    "node-schedule": "^1.1.1"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  }
+}

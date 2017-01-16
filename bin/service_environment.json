@@ -1,0 +1,10 @@
+[
+    {
+        "name": "NODE_ENV",
+        "value": "debug"
+    },
+    {
+        "name": "CLIENT_COMPANY",
+        "value": "PCCaparica"
+    }
+]

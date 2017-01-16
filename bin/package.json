@@ -1,0 +1,29 @@
+{
+    "name": "WinService",
+    "version": "0.2.4",
+    "description": "Utils to run, manage node app's in windows; Either with native windows services or as cmd \"run-able\"",
+    "main": "WindowsSetupService.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "services",
+        "windows",
+        "cli"
+    ],
+    "author": "João Arcanjo doArcanjo@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "jsonfile": "^2.0.0",
+        "chalk": "^0.5.1",
+        "colors": "^1.0.3",
+        "hostile": "^0.7.0",
+        "minimist": "^1.1.0",
+        "nconf": "^0.6.9",
+        "moment": "^2.6.0",
+        "lodash": "^2.4.1",
+        "blessed": "0.0.29",
+        "prettyjson": "^1.0.0",
+        "node-windows": "^0.1.7"
+    }
+}
